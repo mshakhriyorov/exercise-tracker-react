@@ -1,3 +1,24 @@
-h1{
-  color: red;
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montseratt", sans-serif;
+}
+
+.app {
+  background-image: url("") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.3s ease-out;
+}
+
+.app.warm {
+  background-image: url("./assets/warm-bg.jpg");
+}
+
+main {
+  height: 100vh;
 }
